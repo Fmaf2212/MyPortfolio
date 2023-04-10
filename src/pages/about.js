@@ -5,6 +5,10 @@ import AnimatedText from '../components/AnimatedText'
 import profilePic from '../../public/images/profile/developer-pic-2.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import Skills from '../components/Skills'
+import Experiencie from '../components/Experiencie'
+import Education from '../components/Education'
+import TransitionEffect from '../components/TransitionEffect'
 
 const AnimatedNumbers = ({value}) =>{
     const ref = useRef(null);
@@ -37,6 +41,7 @@ const about = () => {
             <title>CodeBucks | About Page</title>
             <meta name="description" content="any description" />
         </Head>
+        <TransitionEffect />
         <main className="flex w-full flex-col items-center justify-center">
             <Layout className='pt-16'>
                 <AnimatedText text="Passion fuels Purpose!" className='mb-16'/>
@@ -77,6 +82,9 @@ every project I work on. I look forward to the opportunity to bring my skills an
                         </div>
                     </div>
                 </div>
+                <Skills />
+                <Experiencie />
+                <Education />
             </Layout>
         </main>
     </>
