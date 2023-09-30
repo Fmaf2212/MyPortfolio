@@ -23,7 +23,7 @@ const Skills = () => {
           <Skill name="Javascript" x="20vw" y="6vw"></Skill>
           <Skill name="ReactJS" x="0vw" y="12vw"></Skill>
           <Skill name="NextJS" x="-20vw" y="-15vw"></Skill>
-          <Skill name="GatsbyJS" x="15vw" y="-12vw"></Skill>
+          <Skill name="Axios" x="15vw" y="-12vw"></Skill>
           <Skill name="Web Design" x="32vw" y="-5vw"></Skill>
           <Skill name="Figma" x="0vw" y="-20vw"></Skill>
           <Skill name="Firebase" x="-25vw" y="18vw"></Skill>

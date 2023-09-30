@@ -18,6 +18,11 @@ const Details = ({position, company, companyLink, time, address, work, y}) =>{
                 <p className='font-medium w-full md:text-sm'>
                     {work}
                 </p>
+                {/* <ol>
+                    work.forEach((e) => {
+                        console.log("hola")
+                    });
+                </ol> */}
             </motion.div>
         </li>
     )
@@ -39,14 +44,7 @@ const Experiencie = () => {
         <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
             <motion.div  viewport={{once: true}} style={{scaleY: scrollYProgress}} className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
             <ul className='w-full flex flex-col items-start justify-between ml-4'>
-                <Details y="0" position="Software Engineer" company="Google" companyLink="www.google.com" time="2022-Present" address="Mountain View, CA" work="Worked on a team responsible for developing new features for Google's
-search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization." />
-                <Details y="0" position="Software Engineer" company="Google" companyLink="www.google.com" time="2022-Present" address="Mountain View, CA" work="Worked on a team responsible for developing new features for Google's
-search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization." />
-                <Details y="0" position="Software Engineer" company="Google" companyLink="www.google.com" time="2022-Present" address="Mountain View, CA" work="Worked on a team responsible for developing new features for Google's
-search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization." />
-                <Details y="0" position="Software Engineer" company="Google" companyLink="www.google.com" time="2022-Present" address="Mountain View, CA" work="Worked on a team responsible for developing new features for Google's
-search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization." />
+                <Details y="0" position="Frontend Developer" company="Santa Natura" companyLink="tienda.mundosantanatura.com" time="ago. 2019 - actualidad" address="San Isidro, Lima, Perú · Presencial" work={["• Diseñé e implementé interfaces de usuario visualmente atractivas utilizando HTML, CSS y JavaScript.","• Colaboré ​​con los desarrolladores de back-end para integrar la funcionalidad de front-end con los sistemas de base de datos.","• Rendimiento optimizado del sitio web al identificar y resolver problemas de codificación e implementar elementos de diseño eficientes.","• Realizó pruebas y depuraciones exhaustivas para garantizar una experiencia de usuario perfecta en múltiples plataformas y dispositivos.","• Utilicé tecnologías innovadoras para mejorar el rendimiento y la velocidad del sitio web.","• Colaboré ​​con diseñadores y desarrolladores de back-end para integrar características de front-end con funcionalidades de back-end."]} />
                 <Details y="0" position="Software Engineer" company="Google" companyLink="www.google.com" time="2022-Present" address="Mountain View, CA" work="Worked on a team responsible for developing new features for Google's
 search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization." />
             </ul>
